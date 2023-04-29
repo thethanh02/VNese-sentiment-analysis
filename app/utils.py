@@ -70,6 +70,7 @@ def my_normalize_text(text):
     text = text.replace(u'"', u' ')
     text = text.replace('🏻','')
 
+    text = text_normalize(text)
     text = word_tokenize(text, format="text")
 
     return text
