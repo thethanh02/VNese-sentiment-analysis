@@ -1,0 +1,6 @@
+pandas==1.5.1
+neattext==0.1.3
+scikit-learn==1.2.2
+numpy==1.22.4
+streamlit==1.21.0
+ktrain==0.36.0
