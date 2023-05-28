@@ -18,9 +18,6 @@ def load_predictor():
 from utils import my_normalize_text
 from track_utils import *
 
-from googletrans import Translator
-translator = Translator()
-
 import sqlite3
 def emotiontest_table_exists():
 	with sqlite3.connect("database.db") as conn:
